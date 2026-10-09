@@ -1,0 +1,79 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Open Coral Network",
+  "theme": "willow",
+  "colors": {
+    "primary": "#0F766E",
+    "light": "#14B8A6",
+    "dark": "#042F2E"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "ハンドブック",
+        "groups": [
+          {
+            "group": "はじめに",
+            "pages": ["index"]
+          },
+          {
+            "group": "組織基盤",
+            "pages": [
+              "foundation/mission-charter",
+              "foundation/culture-principles",
+              "foundation/governance-doocracy"
+            ]
+          },
+          {
+            "group": "参画・拠点",
+            "pages": [
+              "participation/onboarding",
+              "participation/communication-tools",
+              "participation/bases-third-places"
+            ]
+          },
+          {
+            "group": "エコシステム",
+            "pages": [
+              "ecosystem-jobs/economic-cycle",
+              "ecosystem-jobs/bounty-and-rewards"
+            ]
+          },
+          {
+            "group": "実務・申請",
+            "pages": [
+              "operations/task-workflow",
+              "operations/expense-and-supplies",
+              "operations/compliance-security"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "プロジェクト",
+        "groups": [
+          {
+            "group": "主要プロジェクト",
+            "pages": [
+              "projects/index",
+              "projects/plural-commons",
+              "projects/nexloom-workspace"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/t012093/plural-commons-japan"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/t012093/plural-commons-japan"
+    }
+  }
+}

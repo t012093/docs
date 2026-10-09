@@ -1,0 +1,50 @@
+---
+title: "Nexloom 統合ワークスペース仕様書：AI議事録・ドキュメント・タスク管理・リモートMCP 60種超"
+sidebarTitle: "Nexloom"
+description: "Open Coral Network の業務基盤Nexloomが提供するLiveKit AI会議議事録、Notion級Pages & Wiki、タスク/カンバンボード、60種超リモートMCP（Model Context Protocol）の機能概要と公式仕様書リンク。"
+---
+
+Nexloom は、Open Coral Network の日常業務基盤として開発・運用されている統合ワークスペースです。チャット・ドキュメント・タスク管理・AI会議議事録・60種超のリモートMCP（Model Context Protocol）をひとつのプラットフォームに集約しており、メンバーは [https://ai-note-meet.vercel.app](https://ai-note-meet.vercel.app) からすぐに利用を開始できます。外部AIエージェント（Cursor、Claude Desktop 等）からも安全に組織データへ接続できる点が大きな特徴です。
+
+<Note>
+  **Nexloom プロダクト公式仕様書（Mintlify ドキュメント）**  
+  Nexloom のクライアント別接続ガイド、リモート MCP API リファレンス、およびインフラ構成仕様は、以下の専用ドキュメントサイトにて公開されています。  
+  👉 **[Nexloom Docs ポータル](https://github.com/t012093/ai-note-meet/tree/main/docs-site)**
+</Note>
+
+---
+
+## 📌 Nexloom が提供するコア機能
+
+当法人の日常業務を支える4つの中核機能群を以下に示します。それぞれの詳細仕様については専用ドキュメントをご参照ください。
+
+<CardGroup cols={2}>
+  <Card title="AI会議議事録 ＆ LiveKit連携" icon="microphone">
+    LiveKit 音声基盤と連動し、会議中のリアルタイム発言文字起こし、要約、ToDoアクションアイテムの自動抽出・タスク化を実現します。
+  </Card>
+
+  <Card title="Notion-grade Pages & Wiki" icon="file-lines">
+    ブロックベースのリッチエディタ、カバー画像、階層パンくずリスト、子ページ一覧カードグリッド（SubPageGrid）を備えた高機能ドキュメント基盤。
+  </Card>
+
+  <Card title="タスク ＆ カンバンボード" icon="list-check">
+    プロジェクト別のタスク進捗管理、AIによるタスク自動提案（`suggest_tasks_from_context`）、見積もり工数管理をサポートします。
+  </Card>
+
+  <Card title="リモート MCP (Model Context Protocol)" icon="robot">
+    Cursor、Claude Desktop、Antigravity などの外部AIエージェントから組織のデータへ安全に接続できる60種超の公式ツール群を提供します。
+  </Card>
+</CardGroup>
+
+---
+
+## 🌐 Nexloom へのアクセス
+
+Nexloom は以下の URL から利用できます。アカウントの発行はオンボーディング手順（[参画ガイド](/participation/onboarding)）に従って進めてください。
+
+- **Nexloom ワークスペース**: [https://ai-note-meet.vercel.app](https://ai-note-meet.vercel.app)
+- **公式仕様書・Docs**: [https://github.com/t012093/ai-note-meet/tree/main/docs-site](https://github.com/t012093/ai-note-meet/tree/main/docs-site)
+
+<Tip>
+  初めて Nexloom を使う場合は、まず参画ガイドのステップ 2（Nexloom アカウントの発行）を完了させてからログインしてください。タスクボードやドキュメントへのアクセス権が自動的に付与されます。
+</Tip>

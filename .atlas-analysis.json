@@ -1,0 +1,88 @@
+{
+  "projectType": "general",
+  "projectName": "Open Coral Network",
+  "projectDescription": "The official organizational handbook for Open Coral Network / Plural Commons Japan — a civic NPO building self-sustaining local commons through Civic AI, vacant-house third places, and a fair bounty ecosystem.",
+  "theme": "willow",
+  "primaryColor": "#0F766E",
+  "lightColor": "#14B8A6",
+  "darkColor": "#042F2E",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "ハンドブック",
+        "groups": [
+          {
+            "group": "はじめに",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "組織基盤",
+            "pages": [
+              "foundation/mission-charter",
+              "foundation/culture-principles",
+              "foundation/governance-doocracy"
+            ]
+          },
+          {
+            "group": "参画・拠点",
+            "pages": [
+              "participation/onboarding",
+              "participation/communication-tools",
+              "participation/bases-third-places"
+            ]
+          },
+          {
+            "group": "エコシステム",
+            "pages": [
+              "ecosystem-jobs/economic-cycle",
+              "ecosystem-jobs/bounty-and-rewards"
+            ]
+          },
+          {
+            "group": "実務・申請",
+            "pages": [
+              "operations/task-workflow",
+              "operations/expense-and-supplies",
+              "operations/compliance-security"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "プロジェクト",
+        "groups": [
+          {
+            "group": "主要プロジェクト",
+            "pages": [
+              "projects/index",
+              "projects/plural-commons",
+              "projects/nexloom-workspace"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Do-ocracy governance with 3-layer decision structure (lazy consensus for daily ops)",
+    "4-engine self-sustaining funding model (grants, public-private, hospitality, art/research)",
+    "Vacant-house third-place bases (café, coworking, lodging) with 40/60 capacity management",
+    "Fair bounty & Local Proof of Action point system for contributors",
+    "Nexloom integrated workspace (AI meeting minutes, Pages, task board, 60+ remote MCP tools)",
+    "Plural Commons Japan spec (4 commons pillars, art RWA authentication, Zaisei Radar GovTech)",
+    "Civic AI tools including Auto-Grants and public finance transparency dashboards",
+    "NPO × LLC-DAO dual legal structure with conflict-of-interest firewall"
+  ],
+  "publicApiSurface": [
+    "Nexloom remote MCP tools (60+ Model Context Protocol endpoints for AI agent integration)",
+    "suggest_tasks_from_context (Nexloom AI task suggestion API)",
+    "Local Proof of Action QR check-in (LINE login + dynamic QR for on-site contribution tracking)",
+    "Zaisei Radar (public finance data visualization dashboard)",
+    "Auto-Grants (grant-matching AI engine, planned SaaS)",
+    "Notion expense reimbursement form (https://flannel-sunshine-3f3.notion.site/...)",
+    "Notion equipment purchase form (https://flannel-sunshine-3f3.notion.site/...)",
+    "GitHub: plural-commons-japan (https://github.com/t012093/plural-commons-japan)"
+  ]
+}
